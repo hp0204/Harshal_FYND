@@ -1,6 +1,6 @@
 👋 Hi, I’m @hp0204
 
-👀 I’m interested in coding, java, android developement and c++.
+👀 I’m interested in coding, java, android developement.
 
 🌱 I’m currently learning web developement.
 
