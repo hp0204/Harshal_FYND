@@ -1,10 +1,6 @@
 👋 Hi, I’m @hp0204
 
-👀 I’m interested in coding, java, android developement.
-
-🌱 I’m currently learning web developement.
-
-💞️ I’m looking to collaborate on websites.
+Fynd Academy Training
 
 <!---
 hp0204/hp0204 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
