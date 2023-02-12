@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <title>Box Hover</title>
+
+    <style>
+        .mybox {
+            width: 300px;
+            height: 250px;
+            background-color: blue;
+            border-radius: 25px;
+            transition: all 0.2 ease;
+            -webkit-transition: all 0.2 ease;
+        }
+
+        .mybox:hover {
+            background-color: pink;
+            width: 500px;
+            height: 250px;
+        }
+    </style>
+</head>
+<body>
+    <p id="demo"></p>
+    <div class="mybox"></div>
+    <script>
+        var temp;   //validate
+        var temp1 = 20;
+        if(temp==undefined)
+        console.log("true");
+        else
+        console.log("False");
+        
+        const car = {type:"flat", model:"400",color:"red"};
+        document.getElementById("demo").innerHTML=car.type;
+    </script>
+</body>
+</html>
