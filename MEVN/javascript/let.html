@@ -1,0 +1,50 @@
+<html>
+    <body>
+        <h2>js</h2>
+        <p id="test"></p>
+        <script>
+            let x=10; //x is 10
+            var y = 10; // wide scope
+            {
+                let x = 22;
+                var y = 50; //cannot be reassigned
+            }
+            //x is 10
+            //y is 20
+            document.getElementById("test").innerHTML=x;
+            //document.getElementById("test").innerHTML=y;
+        </script>
+    </body>
+    
+</html>
+
+<html>
+
+    <style>
+        ul.a{
+            list-style-type: circle;
+        }
+        ul.b{
+            list-style-type: square;
+        }
+        ul.c{
+            list-style-type: lower-alpha;
+        }
+    </style>
+    <body>
+        <h1>An unorderd list </h1>
+        <ul class = "b">
+            <li>chai</li>
+            <li>Coffee</li>
+            <li>Rasam</li>
+        </ul>
+
+        <ol class = "b">
+            <li>Virat</li>
+            <li>MS Dhoni</li>
+            <li>Rohit</li>
+        </ol>
+    </body>
+</html>
+
+
